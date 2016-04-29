@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicacion</title>
+
+<!--grupo css-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.5.5.min.css"/>
+<link rel="stylesheet" href="css/temasapp5.min.css"/>
+<!--grupo javaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/popo2.jpg','imagenes/imagen12.jpg','imagenes/imagen16.jpg','imagenes/colima.jpg','imagenes/colima5.jpg','imagenes/tierra2.jpg')">
+<div data-role="page" id="principal" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>DIA DE LA TIERRA </h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  	<div data-role=data-content-theme="false">
+  	<div>		
+    </div>
+  <div>
+ <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:978px;height:378px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+ </div>
+  </div>
+  </div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>¿Que es el dia de la tierra?</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>¿Por que se celebra ese dia?</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>CUIDADOS DEL MEDIO AMBIENTE</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+ <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Cambio Climatico</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>BENEFICIOS</h2>
+     </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>TIPOS DE CONTAMINACION</h2>
+      </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+     <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>PROBLEMAS EN LA COMUNIDAD</h2>
+     </a>
+   </li>
+  </ul>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b">
+ <div>
+    <h4>APP5</h4>
+    <h4>Velazquez Mejia Ulises Armando</h4>
+  </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>¿Que es el dia de la tierra?</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+     <p>El día de la Tierra es una de las expresiones más bonitas y ecológicas que tenemos. Para el 22 de abril de 2016, el día de la Tierra, te proponemos pasar un día celebrando precisamente nuestro amor por la tierra, y por ello se dan diversos actos que nos permiten celebrar este día de un modo especial, dejando claro nuestro compromiso con el medio ambiente, la tierra y el entorno que nos rodea.
+     El Día de la Tierra o Día internacional de la Madre Tierra, Earth Day, se celebra cada año el día 22 de Abril (este 2016 caerá en viernes).
+
+El promotor de este día, es el senador estadounidense Gaylord Nelson, que decidió instaurar este día para concienciar a la población de los problemas comunes que nos afectan en torno a la contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra.</p><p>
+    <!-- Start WOWSlider.com -->
+<iframe src="http://www.mundotnc.org/ecotips/miscelaneos.xml" style="width:978px;height:378px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com --></p>
+   </div>
+  </div>
+  <div data-role="footer" data-theme="a" data-position="fixed"> 
+  <h4>Velazquez Mejia Ulises Armando</h4>
+  </div>
+</div>
+</div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>¿Porque se celebra ese dia?</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+      <P>El 22 de abril de cada año se celebra el nacimiento del movimiento ambientalista moderno, el cual se inició en 1970 cuando 20 millones de norteamericanos tomaron las calles, los parques y los auditorios para manifestarse por un ambiente saludable y sustentable
+
+El Día de la Tierra de 1970 logró una coincidencia política que parecía imposible. Ese día condujo a la creación de la Agencia de Protección al Medio Ambiente de Estados Unidos y a la aprobación de leyes relacionadas con el aire limpio, el agua limpia y la conservación de especies en peligro de extinci&aocute;n. A partir de entonces, cada año en esta fecha, el mundo entero reflexiona y se moviliza por una Tierra mejor
+
+Hasta este siglo pocos pensaron que los seres humanos, viviendo en una extensión de tierra aparentemente sin límites y con agua abundante, podrían causar daños irreparables al medio ambiente. Sin embargo hoy los gobiernos y la gente en general en todo el mundo luchan con la erosión costera, los derrames de petróleo y la contaminación del agua potable, en tanto que cuestiones como el crecimiento de la población, la deforestación, la lluvia ácida y la posibilidad de rápidos cambios climáticos significan decisiones difíciles para el futuro.
+
+En 1975 un grupo internacional de estudio reunido en Belgrado, Yugoslavia, propuso un marco de referencia mundial para la educación ambiental, el cual se llamó la "Carta de Belgrado". Esta Carta afirma que la meta de la educación ambiental es hacer que la población mundial se preocupe por el medio ambiente y tenga el conocimiento y la dedicación que la capacite para buscar soluciones a los problemas actuales y prevenir problemas nuevos. .</p>
+      <img src="imagenes/dia internacional de la tierra.jpg" width="30%" height="30%">
+      </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+       <h4>Velazquez Mejia Ulises Armando</h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>CUIDADOS DEL MEDIO AMBIENTE</h1>
+ <div data-role="content" align="center">
+ <p>La vida vegetal y animal ha sido utilizada por el hombre por siglos, sin embargo, la constante explotación indiscriminada de estos recursos por la sociedad, podría causar daños al propio hombre y a la vida vegetal y animal.
+La población se beneficia de los recursos naturales, utilizados, en ocasiones, sin medida y provocando el deterioro del medio ambiente; los bosques, por ejemplo, pueden explotarse, si se siembran más árboles, así la reforestación preservará la flora y fauna del bosque.
+La casa es el refugio y espacio para los niños, donde se llevan a cabo muchas labores que requieren limpieza y orden; de esta forma los niños aprenden hábitos de cuidado que, guiados por los adultos, aplicarán también la preservación del medio ambiente.
+Uno de los problemas que cada día se hace más grave es el relacionado con el uso irracional de nuestros recursos naturales; las causas de los problemas ambientales van unidas a la forma como percibimos a la misma naturaleza, el uso que hacemos de ésta y la manera como apoyamos su recuperación.
+La tala inmoderada de zonas boscosas, la quema excesiva de campos para uso agrícola, la explotación masiva de especies vegetales y animales, la caza furtiva y la contaminación a la que está expuesta la naturaleza son algunas de las muchas causas por las que actualmente la calidad de vida de la sociedad va disminuyendo.
+El ser humano toma recursos, desde hace siglos, de su medio para proveerse de alimento, hogar, vestido, etcétera. La sobrepoblación y la falta de conciencia ha ocasionado que se abuse de dichos recursos.
+Si se desea que los niños gocen de un medio sano y seguro en el cual puedan desarrollarse es, todavía tiempo de unir esfuerzos y afrontar este problema, se debe también involucrar en este uso moderado de los recursos naturales a los pequeños para que desde ahora se acostumbren a conservar y respetar a la naturaleza.</p>
+    <img src="imagenes/medio_ambiente 1.jpg" width="30%" heigth="30%">
+    </div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Ulises Armando Velazquez Mejia</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Cambio Climatico</h1>
+ <div data-role="content" align="center">
+     <p>Desde que se creó este sitio en 1997 a la fecha han habido muchos cambios y avances paulatinos en la opinión científica, política y pública sobre el cambio climático y el calentamiento global.
+
+Del titubeo inicial, de los primeros pasos para enfrentar el problema, el retroceso con el irresponsable gobierno de George W. Bush y el boicot irracional de los anti-cambio-climático, hoy estamos en un momento donde los datos y los hechos ya no permiten ni negar, ni mentir, ni barrer el problema bajo la alfombra.
+El Cambio Climático es un cambio significativo y duradero de los patrones locales o globales del clima, las causas pueden ser naturales, como por ejemplo, variaciones en la energía que se recibe del Sol, erupciones volcánicas, circulación oceánica, procesos biológicos y otros, o puede ser causada por influencia antrópica (por las actividades humanas), como por ejemplo, a través de la emisión de CO2 y otros gases que atrapan calor, o alteración del uso de grandes extensiones de suelos que causan, finalmente, un calentamiento global. Más detalles en ¿Qué es el Cambio Climático? y Causas del Cambio Climático.</p>
+   </div>
+ </div>
+ <img src="imagenes/medio_ambiente 2.jpg" width="30%" heigth="30%">
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <h4>Ulises Armando Velazquez Mejia</h4>
+   </div>
+  </div>
+  
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Beneficios</h1>
+ </div>
+ <div data-role="content" align="center">
+   <div>
+   <p>Separar los envases y depositarlos en su contenedor para su posterior reciclado puede parecer un esfuerzo inútil si no se conocen sus beneficios para el medio ambiente. En este sentido, cada vez que se recicla un envase, se está evitando llenar los vertederos y la extracción de nuevas materias primas, además de reducir el consumo de energía y la emisión de gases de efecto invernadero, causantes del cambio climático. Asimismo, con los materiales reciclados se pueden hacer nuevos productos, en algunos casos con resultados muy curiosos. Para que las cifras de reciclaje sigan aumentando, tanto en cantidad como en calidad, los consumidores son fundamentales.</p>
+ </div>
+</div>
+ <img src="imagenes/medio_ambiente 3.jpg" width="30%" heigth="30%">
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Ulises Armando Velazquez Mejia</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Tipos de contaminacion</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+
+<p>Diferentes tipos de contaminación están clasificados por su parte que afectan o resultan por las causas de contaminación particulares. Cada uno de estos tipos tiene sus propias causas y consecuencias distintivas. El estudio de la contaminación ambiental ayuda a entender los conceptos básicos con mayor detalle y producir protocolos para los tipos específicos. En consecuencia, los principales tipos de contaminación son:</p>
+
+<p>Contaminación del Agua</p>
+<p>Contaminación del Aire</p>
+<p>Contaminación del Suelo</p>
+<p>Contaminación Térmica</p>
+<p>La Contaminación radiactiva</p>
+<p>Contaminación Acústica</p>
+<p>Contaminación Lumínica</p>
+<img src="imagenes/medio_ambiente 4.jpg" width="30%" heigth="30%">
+ </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Ulises Armando Velazquez Mejia</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Problemas que hay en mi comunidad</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <p>Pues en mi comunidad hay algunos problemas por ejemplo: que algunos vecinos dejan su basura en las calles por que no tienen tiempo para esperar al camion de basura y si no pasa el camion pues ahi se queda su basura hasta que el camion pasa a recogerla.
+ Por eso nos quejamos los vecinos que si esperan al camion, tambien hay otros problemas como las personaas que comen chatarra y dejan tirada su envoltura de su  basura o envaces de bebidas en la calle. </p>
+ </div>
+</div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor1/indexwow.html" style="width:978px;height:378px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Ulises Armando Velazquez Mejia</h4>
+</div>
+</div>
+</body>
+</html>
